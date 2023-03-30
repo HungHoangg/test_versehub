@@ -2,7 +2,7 @@ import CardNews from "../common/CardNews";
 import { v4 as uuidv4 } from "uuid";
 import Carroussel from "../common/Caroussel";
 
-function AboutMe() {
+function SliderTest() {
   let cards = [
     {
       key: uuidv4(),
@@ -54,4 +54,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default SliderTest;
