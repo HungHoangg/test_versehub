@@ -1,0 +1,5 @@
+.cover-image {
+    @apply w-full h-72;
+    background-image: url("cover.jpg");
+    background-size: cover;
+}

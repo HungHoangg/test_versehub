@@ -1,0 +1,71 @@
+.content-container {
+    @apply
+        container
+        p-4
+        absolute
+        justify-between;
+    top: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.basic-info {
+    @apply lg:flex bg-white rounded-2xl pb-4;
+}
+
+.body-container {
+    @apply w-full;
+}
+
+// Name and Job title container
+.name-container {
+    @apply
+    p-8
+    pt-24
+    lg:pt-4
+    lg:ml-52
+    ;
+}
+
+.my-name {
+    @apply
+    text-3xl
+    font-bold
+    text-slate-700
+    text-center
+    lg:text-left
+    ;
+}
+.job-title {
+    @apply
+    text-center
+    lg:text-left
+    text-xl
+    text-slate-700
+    ;
+}
+// Info container
+.info-container {
+    flex: 1;
+    @apply
+    block
+    m-auto
+    md:flex
+    items-center
+    md:justify-center
+    ;
+    flex-wrap: wrap;
+}
+.info-item {
+    @apply
+    p-2
+    flex
+    justify-center
+    text-slate-700
+    font-bold
+    hover:text-orange-500
+    cursor-pointer
+    mr-8
+}
